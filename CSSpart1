@@ -1,0 +1,43 @@
+body {
+    background-color: darkorange;
+}
+
+h1 {
+  color: DarkSlate;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-style: bold;
+  text-align: center;
+  margin: 14px;
+}
+
+p {
+  font-style: italic;
+  margin: 0;
+}
+
+.table {
+  line-height: 18px;
+  font-weight: 100%;
+  word-spacing: 0.5em;
+}
+
+* {
+ font-family: Arial, Courier, serif;
+}
+
+.btn {
+  border: 0;
+  background-color: rgb(200, 163, 187);
+  padding: 10px 10px;
+  font-size: 12px;
+}
+
+.btn-default:hover {
+  background: #77a198;
+}
+
+.text {
+  font-size: 15px;
+  margin: 0;
+}
