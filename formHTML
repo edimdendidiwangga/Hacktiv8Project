@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Halaman HTML Sederhana</title>
+  </head>
+  <body>
+    <h1><b>Contoh Form HTML Sederhana</b></h1>
+    <p>Ini adalah contoh form sederhana menggunakan HTML</p>
+  </body>
+  <br/>
+  <form action="/api/contact" method="post">
+  <!-- Form Elements -->
+    <table>
+        <tr>
+          <td id="indeks"><label for="nama"><b>Nama</b></label></td>
+          <td><input type="text" name="nama" /></td>
+        </tr>
+        <tr>
+          <td id="indeks"><label for="tgllahir"><b>Tanggal Lahir </b></label></td>
+          <td><input type="text" name="tgllahir" /></td>
+        </tr>
+        <tr>
+          <td id="indeks"><label for="alamat"><b>Alamat</b> </label></td>
+          <td><input type="text" name="alamat" /></td>
+        </tr>
+        <tr>
+          <td id="indeks"><label for="email"><b>Email</b> </label></td>
+          <td><input type="text" name="email" /></td>
+        </tr>
+        <br/>
+        <tr>
+          <td id="indeks"><label for="kelamin"><b>Jenis Kelamin</b></label> </td>
+          <td><input type="radio" name="kelamin" value="Laki-Laki"/><label for="Laki-Laki">Laki-Laki</label>
+          <input type="radio" name="kelamin" value="Perempuan" /><label for="Perempuan">Perempuan</label></td>
+        </tr>
+        <br/>
+        <!-- Menu Drop Down -->
+        <tr>
+          <td id="indeks"><label for="pendidikan"><b>Pendidikan Terakhir </b></label></td>
+          <td>
+            <select name="pendidikan">
+              <option value="SD">SD</option>
+              <option value="SMP">SMP</option>
+              <option value="SMA">SMA</option>
+              <option value="S1">S1</option>
+              <option value="S2">S2</option>
+              <option value="S3">S3</option>
+            </select>
+          </td>
+        </tr>
+        <!-- Menu Chechk Box -->
+        <tr>
+          <td id="indeks"><label for="minat"><b>Minat</b></label></td>
+          <td><input type="checkbox" name="minat" /><label for="politik">Politik</label><br />
+          <input type="checkbox" name="minat" /><label for="hiburan">Hiburan</label><br />
+          <input type="checkbox" name="minat" /><label for="sejarah">Sejarah</label><br />
+          <input type="checkbox" name="minat" /><label for="olahraga">Olahraga</label><br />
+          <input type="checkbox" name="minat" /><label for="teknologi">Teknologi</label>
+          </td>
+        </tr>
+        <tr>
+        <!-- Contoh Upload Photo -->
+        <tr>
+          <td id="indeks"><label for="file"><b>Upload Foto </b></label></td>
+          <td><input type="file" name="picture" id="picture" accept="image/jpeg, image/gif"/></td>
+        </tr>
+    </table>
+        <tr>
+        <!-- Comment Area -->
+        <textarea name="comment">Deskripsikan Diri Anda</textarea><br/>
+        <input type="submit" name="submit" value="Submit">
+        </tr>
+  </form>
+  <br/>
+<footer>
+  Handcraft by Achmad Kamil
+</footer>
+</html>
