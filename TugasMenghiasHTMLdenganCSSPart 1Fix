@@ -1,0 +1,55 @@
+body {
+  background: darkorange;
+}
+
+div.header {
+  background-color: yellow;
+  background-position: center center;
+  text-align: center;
+}
+
+* {
+  font-family: Arial, Courier, serif;
+  word-spacing: normal;
+}
+
+h1 {
+ color: red;
+ font-size: 30px
+ line-height: 76px;
+}
+
+h2 {
+  color: red;
+  font-style: italic;
+  font-family: Arial, sans-serif;
+  position: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+  color: red;
+  font-family: Courier;
+}
+
+p {
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+  font-family: Times, serif;
+}
+
+li {
+  font-size: 12px;
+}
+
+div.body {
+  background-color: white;
+}
+
+div.comment {
+  background-color: pink;
+  color: red;
+  line-height: auto;
+}
