@@ -32,28 +32,28 @@
          <br/>
          <input type="text" name="lastname" id="lastname">
          <br/>
-      <p>Gender:</p>
+      <label>Gender:</label><br/>
         <input type="radio" name="day" value="Friday" checked> Male
         <br/>
         <input type="radio" name="day" value="Saturday"> Female
         <br/>
         <input type="radio" name="day" value="Sunday"> Other
         <br/>
-      <p>Favorite Cars:</p>
+      <label>Favorite Cars:</label><br/>
         <select name="cars">
           <option value="Volvo" selected>Volvo</option>
           <option value="Lamborghini">Lamborghini</option>
           <option value="Ferrari">Ferrari</option>
         </select>
         <br/>
-      <p>Language Spoken:</p>
+      <label>Language Spoken:</label><br/>
         <input type="checkbox" name="language" value="Friday"> Bahasa Indonesia
         <br/>
         <input type="checkbox" name="language" value="Saturday"> English
         <br/>
         <input type="checkbox" name="language" value="Sunday"> Other
         <br/>
-      <p>Bio:</p>
+      <label>Bio:</label><br/>
       <td><textarea cols="31" rows="10"></textarea></td>
       <br/>
       <td><input value="Submit" type="submit"></td>
