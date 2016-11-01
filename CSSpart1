@@ -1,43 +1,55 @@
 body {
-    background-color: darkorange;
+  background: darkorange;
 }
 
-h1 {
-  color: DarkSlate;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-style: bold;
+div.header {
+  background-color: yellow;
+  background-position: center center;
   text-align: center;
-  margin: 14px;
-}
-
-p {
-  font-style: italic;
-  margin: 0;
-}
-
-.table {
-  line-height: 18px;
-  font-weight: 100%;
-  word-spacing: 0.5em;
 }
 
 * {
- font-family: Arial, Courier, serif;
+  font-family: Arial, Courier, serif;
+  word-spacing: normal;
 }
 
-.btn {
-  border: 0;
-  background-color: rgb(200, 163, 187);
-  padding: 10px 10px;
+h1 {
+ color: red;
+ font-size: 30px
+ line-height: 76px;
+}
+
+h2 {
+  color: red;
+  font-style: italic;
+  font-family: Arial, sans-serif;
+  position: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+  color: red;
+  font-family: Courier;
+}
+
+p {
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+  font-family: Times, serif;
+}
+
+li {
   font-size: 12px;
 }
 
-.btn-default:hover {
-  background: #77a198;
+div.body {
+  background-color: white;
 }
 
-.text {
-  font-size: 15px;
-  margin: 0;
+div.comment {
+  background-color: pink;
+  color: red;
+  line-height: auto;
 }
