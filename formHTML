@@ -1,78 +1,63 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Halaman HTML Sederhana</title>
+    <title>Mebuat Halaman HTML</title>
   </head>
+  <!-- This is Header -->
   <body>
-    <h1><b>Contoh Form HTML Sederhana</b></h1>
-    <p>Ini adalah contoh form sederhana menggunakan HTML</p>
+    <h1>Achmad Kamil Webpage</h1>
+    <h2>Welcome everyone!</h2>
+
+    <!-- This is Body -->
+    <p>Hi, I am Achmad Kamil, and this is my first webpage. Let's be a fullstack developer with Hacktiv8.</p>
+    <p>This is my target list:</p>
+    <ol>
+      <li>Being fullstack deveoper</li>
+      <li>Create a wonderful website</li>
+    </ol>
+    <p>Here is my contact:</p>
+    <ul>
+      <li>Email: achmadkamil17@gmail.com</li>
+      <li>Phone: 085892535684</li>
+    </ul>
+
+    <!-- This is Comment -->
+    <form method="post" action="#">
+      <h3>Leave your comment below</h3>
+         <label for="username">First name</label>
+         <br/>
+         <input type="text" name="username" id="username">
+         <br/>
+         <label for="lastname">Last name</label>
+         <br/>
+         <input type="text" name="lastname" id="lastname">
+         <br/>
+      <p>Gender:</p>
+        <input type="radio" name="day" value="Friday" checked> Male
+        <br/>
+        <input type="radio" name="day" value="Saturday"> Female
+        <br/>
+        <input type="radio" name="day" value="Sunday"> Other
+        <br/>
+      <p>Favorite Cars:</p>
+        <select name="cars">
+          <option value="Volvo" selected>Volvo</option>
+          <option value="Lamborghini">Lamborghini</option>
+          <option value="Ferrari">Ferrari</option>
+        </select>
+        <br/>
+      <p>Language Spoken:</p>
+        <input type="checkbox" name="language" value="Friday"> Bahasa Indonesia
+        <br/>
+        <input type="checkbox" name="language" value="Saturday"> English
+        <br/>
+        <input type="checkbox" name="language" value="Sunday"> Other
+        <br/>
+      <p>Bio:</p>
+      <td><textarea cols="31" rows="10"></textarea></td>
+      <br/>
+      <td><input value="Submit" type="submit"></td>
+    </form> 
   </body>
-  <br/>
-  <form action="/api/contact" method="post">
-  <!-- Form Elements -->
-    <table>
-        <tr>
-          <td id="indeks"><label for="nama"><b>Nama</b></label></td>
-          <td><input type="text" name="nama" /></td>
-        </tr>
-        <tr>
-          <td id="indeks"><label for="tgllahir"><b>Tanggal Lahir </b></label></td>
-          <td><input type="text" name="tgllahir" /></td>
-        </tr>
-        <tr>
-          <td id="indeks"><label for="alamat"><b>Alamat</b> </label></td>
-          <td><input type="text" name="alamat" /></td>
-        </tr>
-        <tr>
-          <td id="indeks"><label for="email"><b>Email</b> </label></td>
-          <td><input type="text" name="email" /></td>
-        </tr>
-        <br/>
-        <tr>
-          <td id="indeks"><label for="kelamin"><b>Jenis Kelamin</b></label> </td>
-          <td><input type="radio" name="kelamin" value="Laki-Laki"/><label for="Laki-Laki">Laki-Laki</label>
-          <input type="radio" name="kelamin" value="Perempuan" /><label for="Perempuan">Perempuan</label></td>
-        </tr>
-        <br/>
-        <!-- Menu Drop Down -->
-        <tr>
-          <td id="indeks"><label for="pendidikan"><b>Pendidikan Terakhir </b></label></td>
-          <td>
-            <select name="pendidikan">
-              <option value="SD">SD</option>
-              <option value="SMP">SMP</option>
-              <option value="SMA">SMA</option>
-              <option value="S1">S1</option>
-              <option value="S2">S2</option>
-              <option value="S3">S3</option>
-            </select>
-          </td>
-        </tr>
-        <!-- Menu Chechk Box -->
-        <tr>
-          <td id="indeks"><label for="minat"><b>Minat</b></label></td>
-          <td><input type="checkbox" name="minat" /><label for="politik">Politik</label><br />
-          <input type="checkbox" name="minat" /><label for="hiburan">Hiburan</label><br />
-          <input type="checkbox" name="minat" /><label for="sejarah">Sejarah</label><br />
-          <input type="checkbox" name="minat" /><label for="olahraga">Olahraga</label><br />
-          <input type="checkbox" name="minat" /><label for="teknologi">Teknologi</label>
-          </td>
-        </tr>
-        <tr>
-        <!-- Contoh Upload Photo -->
-        <tr>
-          <td id="indeks"><label for="file"><b>Upload Foto </b></label></td>
-          <td><input type="file" name="picture" id="picture" accept="image/jpeg, image/gif"/></td>
-        </tr>
-    </table>
-        <tr>
-        <!-- Comment Area -->
-        <textarea name="comment">Deskripsikan Diri Anda</textarea><br/>
-        <input type="submit" name="submit" value="Submit">
-        </tr>
-  </form>
-  <br/>
-<footer>
-  Handcraft by Achmad Kamil
-</footer>
+  <footer>Handcraft by Achmad Kamil</footer>
 </html>
