@@ -1,0 +1,7 @@
+ // Tugas 1 : SIMPAN, HITUNG dan TULISKAN
+
+BACA dan SIMPAN "angka pertama"
+BACA dan SIMPAN "angka kedua"
+HITUNG "angka pertama" dikali "angka kedua"
+TULISKAN hasil hitungan
+TAMPILKAN hasil
