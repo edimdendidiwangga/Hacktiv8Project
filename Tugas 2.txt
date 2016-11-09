@@ -1,0 +1,6 @@
+ // Tugas 2 : SIMPAN, IF dan TULISKAN
+
+BACA dan SIMPAN "Belajar"
+IF "Belajar" adalah "Saya Belajar Javascript"
+TULISKAN hasil "Belajar"
+TAMPILKAN hasil "Pasti Bisa"
