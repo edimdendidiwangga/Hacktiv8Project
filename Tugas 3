@@ -1,0 +1,8 @@
+ // Tugas 3 : SIMPAN, ULANGI dan TAMPILKAN
+
+BACA dan SIMPAN "Deret"
+BACA dan SIMPAN "Deret adalah dimulai dari angka 1 dan kurang dari 10"
+BACA dan SIMPAN "Angka modulus 3"
+HITUNG "Deret adalah kurang dari 10" dimodulus "Angka modulus 3"
+ULANGI "Sampai deret angka kurang dari 10"
+TAMPILKAN hasil "Angka modulus 3" 
