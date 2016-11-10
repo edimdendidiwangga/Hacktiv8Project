@@ -1,7 +1,8 @@
  // Tugas 3 : SIMPAN, ULANGI dan TAMPILKAN
 
 BACA dan SIMPAN "Angka"
-BACA dan SIMPAN "Angka modulus 3"
-HITUNG "Angka adalah kurang dari 10" dimodulus "Angka modulus 3"
-ULANGI "Sampai deret angka kurang dari 10"
-TAMPILKAN hasil "Angka modulus 3" 
+ FOR 1 <= i <= "Angka" THEN
+  IF i % 3 = 0 THEN
+TAMPILKAN i
+ENDIF
+ENDFOR
